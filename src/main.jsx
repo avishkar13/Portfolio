@@ -27,6 +27,8 @@ function AnimatedRoutes() {
     transition: { duration: 1, ease: 'easeInOut' },
   };
 
+  
+
   return (
     <Routes location={location}>
       <Route
