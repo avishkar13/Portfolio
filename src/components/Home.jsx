@@ -10,7 +10,7 @@ const Home = () => {
                 <div className="profile py-8 lg:py-20 xl:py-40 w-2/3 md:w-1/2 mx-auto flex justify-center items-center">
                     <img
                         className='w-2/3 lg:w-3/4 2xl:w-1/2 rounded-full border border-gray-600'
-                        src="\images\profile.jpeg"
+                        src="public\images\profile.jpeg"
                         alt="Profile picture of Avishkar Deogharia"
                     />
                 </div>
@@ -19,7 +19,7 @@ const Home = () => {
                     <p className='text-gray-400 w-full px-2 text-[28px] md:text-[40px] xl:text-[60px] font-semibold'>Avishkar Deogharia</p>
                     <p className='text-gray-400 w-full px-2 text-[25px] xl:text-[40px]'>MERN Stack Web Developer</p>
                     <div className="buttons flex flex-col md:flex-row gap-2 md:gap-4 pt-4 px-3">
-                        <a target='_blank' href="\Resume.pdf">
+                        <a target='_blank' href="\public\Resume.pdf">
                             <button
                                 type="button"
                                 className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-semibold rounded-lg text-sm px-5 py-2.5"

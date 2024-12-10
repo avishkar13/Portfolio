@@ -13,7 +13,7 @@ const About = () => {
         <div className="px-2 w-[35%] xl:w-1/3 h-[90vh] lg:flex items-center hidden ">
           <img
             className="rounded-[60px] w-[100%] h-[80%]  "
-            src="/images/Profile pic.jpeg"
+            src="public\images/Profile pic.jpeg"
             alt="About Pic"
           />
         </div>
@@ -45,15 +45,15 @@ const About = () => {
           {activeSection === "social" && (
             <div className="social-info w-[90%] md:w-[50%] h-[50%] mx-auto my-6 p-6 flex flex-col gap-4 ">
               <Link to="https://www.linkedin.com/in/avishkar-deogharia" target='_blank' className='flex gap-4 items-center'>
-                <img src="/images/linkedin.svg" alt="LinkedIn" className="w-10 h-10 invert" />
+                <img src="public\images/linkedin.svg" alt="LinkedIn" className="w-10 h-10 invert" />
                 <p className="text-gray-300 text-xl">Connect with me on LinkedIn!</p>
               </Link>
               <Link to="https://github.com/avishkar13" target='_blank' className='flex gap-4 items-center'>
-                <img src="/images/github.svg" alt="GitHub" className="w-10 h-10 invert" />
+                <img src="public\images/github.svg" alt="GitHub" className="w-10 h-10 invert" />
                 <p className="text-gray-300 text-xl">Check out my GitHub!</p>
               </Link>
               <Link to="https://www.instagram.com/_avishkar__13/" target='_blank' className='flex gap-4 items-center'>
-                <img src="/images/instagram.svg" alt="Instagram" className="w-10 h-10 invert" />
+                <img src="public\images/instagram.svg" alt="Instagram" className="w-10 h-10 invert" />
                 <p className="text-gray-300 text-xl">Follow me on Instagram!</p>
               </Link>
             </div>
