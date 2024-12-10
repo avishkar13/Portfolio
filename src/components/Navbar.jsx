@@ -29,7 +29,7 @@ const Navbar = () => {
     }, [isOpen]);
 
     return (
-        <div className='text-white bg-[radial-gradient(125%_125%_at_50%_10%,_#000000_100%,_#6363ee_100%)] fixed top-0 w-full'>
+        <div className='text-white bg-[radial-gradient(125%_125%_at_50%_10%,_#000000_100%,_#6363ee_100%)] fixed top-0 w-full z-50 '>
             <nav className='flex justify-between items-center py-2  '>
                 <div className="logo text-xl md:text-3xl p-1 ml-10 md:ml-20 font-bold font-serif">Portfolio.</div>
                 <button onClick={toggleMenu} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-14 h-12 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">

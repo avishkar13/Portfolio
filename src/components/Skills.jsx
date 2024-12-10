@@ -12,7 +12,7 @@ const Skills = () => {
                     <h2 className="text-2xl font-semibold mb-4 text-center">Frontend Tech Stack</h2>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/html.png" alt="HTML" className="w-6 h-6 mr-2 " />
+                        <img src="/src/assets/images/html.png" alt="HTML" className="w-6 h-6 mr-2 " />
                         <div className="flex-grow">
                             <div className="flex justify-between items-center">
                                 <p className="font-semibold">HTML</p>
@@ -25,7 +25,7 @@ const Skills = () => {
                     </div>
 
                     <div className="technology mb-4 flex  items-center">
-                        <img src="/images/css.png" alt="CSS" className="w-6 h-6 mr-2" />
+                        <img src="/src/assets/images/css.png" alt="CSS" className="w-6 h-6 mr-2" />
                         <div className="flex-grow">
                             <div className="flex justify-between items-center">
                                 <p className="font-semibold">CSS</p>
@@ -38,7 +38,7 @@ const Skills = () => {
                     </div>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/js.png" alt="JavaScript" className="w-6 h-6 mr-2" />
+                        <img src="/src/assets/images/js.png" alt="JavaScript" className="w-6 h-6 mr-2" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">JavaScript</p>
@@ -51,7 +51,7 @@ const Skills = () => {
                     </div>
 
                     <div className="frontend mb-4 flex items-center">
-                        <img src="/images/react.png" alt="React" className="w-6 h-6 mr-2" />
+                        <img src="/src/assets/images/react.png" alt="React" className="w-6 h-6 mr-2" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">React</p>
@@ -64,7 +64,7 @@ const Skills = () => {
                     </div>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/next.png" alt="Next.js" className="w-6 h-6 mr-2 bg-white" />
+                        <img src="/src/assets/images/next.png" alt="Next.js" className="w-6 h-6 mr-2 bg-white" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">Next.js</p>
@@ -81,7 +81,7 @@ const Skills = () => {
                     <h2 className="text-2xl font-semibold mb-4 text-center">Backend Tech Stack</h2>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/node.png" alt="HTML" className="w-6 h-6 mr-2 bg-white rounded-sm" />
+                        <img src="/src/assets/images/node.png" alt="HTML" className="w-6 h-6 mr-2 bg-white rounded-sm" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">Node.js</p>
@@ -94,7 +94,7 @@ const Skills = () => {
                     </div>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/express.png" alt="CSS" className="w-6 h-6 mr-2 bg-white rounded-sm" />
+                        <img src="/src/assets/images/express.png" alt="CSS" className="w-6 h-6 mr-2 bg-white rounded-sm" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">Express.js</p>
@@ -111,7 +111,7 @@ const Skills = () => {
                     <h2 className="text-2xl font-semibold mb-4 text-center">Database Tech Stack</h2>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/mongodb.png" alt="HTML" className="w-6 h-6 mr-2 bg-white rounded-sm" />
+                        <img src="/src/assets/images/mongodb.png" alt="HTML" className="w-6 h-6 mr-2 bg-white rounded-sm" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">MongoDB</p>
@@ -124,7 +124,7 @@ const Skills = () => {
                     </div>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/mongoose.png" alt="CSS" className="w-6 h-6 mr-2 bg-white rounded-sm" />
+                        <img src="/src/assets/images/mongoose.png" alt="CSS" className="w-6 h-6 mr-2 bg-white rounded-sm" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">Mongoose</p>
@@ -141,7 +141,7 @@ const Skills = () => {
                     <h2 className="text-2xl font-semibold mb-4 text-center">Other Tech Tools</h2>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/auth.jpg" alt="HTML" className="w-6 h-6 mr-2 bg-white rounded-sm" />
+                        <img src="/src/assets/images/auth.jpg" alt="HTML" className="w-6 h-6 mr-2 bg-white rounded-sm" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">NextAuth.js</p>
@@ -154,7 +154,7 @@ const Skills = () => {
                     </div>
 
                     <div className="technology mb-4 flex items-center">
-                        <img src="/images/LS.jpg" alt="CSS" className="w-6 h-6 mr-2 bg-white rounded-sm" />
+                        <img src="/src/assets/images/LS.jpg" alt="CSS" className="w-6 h-6 mr-2 bg-white rounded-sm" />
                         <div className="flex-grow">
                             <div className="flex justify-between">
                                 <p className="font-semibold">LocalStorage</p>
