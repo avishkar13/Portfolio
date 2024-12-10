@@ -19,32 +19,11 @@ function AnimatedRoutes() {
 
   const transitionProps = {
     initial: currentPath !== location.pathname ? {
-      x: -200,
-      y: 200,
-      opacity: 0,
-      rotateX: 90,
-      rotateY: -45,
-      scale: 0.8,
-      transformOrigin: '0% 100%',
-    } : {}, // Prevent animation if the same path is clicked
+      opacity: 0, scale: 0.9} : {}, 
     animate: {
-      x: 0,
-      y: 0,
-      opacity: 1,
-      rotateX: 0,
-      rotateY: 0,
-      scale: 1,
-      transformOrigin: '50% 50%',
-    },
+      opacity: 1, scale: 1 },
     exit: {
-      x: 200,
-      y: -200,
-      opacity: 0,
-      rotateX: -90,
-      rotateY: 45,
-      scale: 0.8,
-      transformOrigin: '100% 0%',
-    },
+      opacity: 0, scale: 0.9 },
     transition: { duration: 1, ease: 'easeInOut' },
   };
 

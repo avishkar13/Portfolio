@@ -44,7 +44,7 @@ const Skills = () => {
                 if (allFilled) clearInterval(interval);
                 return newProgress;
             });
-        }, 50);
+        }, 100);
     }, []);
 
     const renderSkill = (name, width, description, image, color) => (
