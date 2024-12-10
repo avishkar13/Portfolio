@@ -13,7 +13,7 @@ const About = () => {
         <div className="hidden lg:flex w-[35%] xl:w-1/3 h-[90vh] items-center">
           <img
             className="rounded-[60px] w-full h-[80%] object-cover"
-            src="/images/Profile pic.jpeg"
+            src="images/Profile pic.jpeg"
             alt="Avishkar Deogharia"
           />
         </div>
@@ -46,7 +46,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex gap-4 items-center"
               >
-                <img src="/images/linkedin.svg" alt="LinkedIn Icon" className="w-10 h-10 invert" />
+                <img src="images/linkedin.svg" alt="LinkedIn Icon" className="w-10 h-10 invert" />
                 <p className="text-gray-300 text-xl">Connect with me on LinkedIn!</p>
               </Link>
               <Link
@@ -55,7 +55,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex gap-4 items-center"
               >
-                <img src="/images/github.svg" alt="GitHub Icon" className="w-10 h-10 invert" />
+                <img src="images/github.svg" alt="GitHub Icon" className="w-10 h-10 invert" />
                 <p className="text-gray-300 text-xl">Check out my GitHub!</p>
               </Link>
               <Link
@@ -64,7 +64,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="flex gap-4 items-center"
               >
-                <img src="/images/instagram.svg" alt="Instagram Icon" className="w-10 h-10 invert" />
+                <img src="images/instagram.svg" alt="Instagram Icon" className="w-10 h-10 invert" />
                 <p className="text-gray-300 text-xl">Follow me on Instagram!</p>
               </Link>
             </div>

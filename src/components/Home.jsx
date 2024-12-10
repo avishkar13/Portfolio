@@ -19,7 +19,7 @@ const Home = () => {
                     <p className='text-gray-400 w-full px-2 text-[28px] md:text-[40px] xl:text-[60px] font-semibold'>Avishkar Deogharia</p>
                     <p className='text-gray-400 w-full px-2 text-[25px] xl:text-[40px]'>MERN Stack Web Developer</p>
                     <div className="buttons flex flex-col md:flex-row gap-2 md:gap-4 pt-4 px-3">
-                        <a target='_blank' rel="noopener noreferrer" href="/Resume.pdf">
+                        <a target='_blank' rel="noopener noreferrer" href="pdf\Resume.pdf">
                             <button
                                 type="button"
                                 className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-semibold rounded-lg text-sm px-5 py-2.5"
