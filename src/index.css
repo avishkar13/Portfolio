@@ -16,7 +16,7 @@ input:-internal-autofill-selected {
   color: white !important;
 }
 
-
+/* FadeIn Animation */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -25,7 +25,21 @@ input:-internal-autofill-selected {
   animation: fadeIn 0.3s ease-in-out;
 }
 
-/* Scrollbar for Chrome, Edge, and Safari */
+/* Hide Scrollbar Animation */
+@keyframes hideScrollbar {
+  0% {
+    overflow: scroll;
+  }
+  100% {
+    overflow: hidden;
+  }
+}
+
+.hide-scrollbar {
+  animation: hideScrollbar 1s forwards;
+}
+
+/* Scrollbar Styles for Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
   width: 8px; /* Width of the scrollbar */
   height: 8px; /* Height for horizontal scrollbar */
@@ -44,7 +58,7 @@ input:-internal-autofill-selected {
   background: #333; /* Slightly lighter black on hover */
 }
 
-/* Scrollbar for Firefox */
+/* Scrollbar Styles for Firefox */
 * {
   scrollbar-width: thin; /* Thin scrollbar */
   scrollbar-color: #2f2e2e #1a1a1a; /* Black thumb, dark gray track */

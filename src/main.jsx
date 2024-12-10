@@ -11,44 +11,43 @@ import Skills from './components/Skills.jsx';
 
 function AnimatedRoutes() {
   const location = useLocation();
-  const [initialLoad, setInitialLoad] = useState(true);
+  const [currentPath, setCurrentPath] = useState(location.pathname);
 
   useEffect(() => {
-    setInitialLoad(false); // Set initial load state to false after the first render
-  }, []);
+    setCurrentPath(location.pathname);
+  }, [location.pathname]);
 
   const transitionProps = {
-    initial: {
-      x: -200, // Start slightly off the left
-      y: 200, // Start from bottom (adjust as necessary)
+    initial: currentPath !== location.pathname ? {
+      x: -200,
+      y: 200,
       opacity: 0,
-      rotateX: 90, // Rotate on X axis to simulate folding
-      rotateY: -45, // Rotate on Y axis to simulate folding from left bottom
-      scale: 0.8, // Slightly smaller scale to add perspective
-      transformOrigin: "bottom left", // Pivot point of the fold
-    },
+      rotateX: 90,
+      rotateY: -45,
+      scale: 0.8,
+      transformOrigin: '0% 100%',
+    } : {}, // Prevent animation if the same path is clicked
     animate: {
-      x: 0, // End position at the center
-      y: 0, // End position at the center
+      x: 0,
+      y: 0,
       opacity: 1,
-      rotateX: 0, // No rotation when fully in view
-      rotateY: 0, // No Y rotation when fully in view
-      scale: 1, // Normal scale
-      transformOrigin: "center", // Center pivot when fully in view
+      rotateX: 0,
+      rotateY: 0,
+      scale: 1,
+      transformOrigin: '50% 50%',
     },
     exit: {
-      x: 200, // Move to the right during exit
-      y: -200, // Move upward during exit
+      x: 200,
+      y: -200,
       opacity: 0,
-      rotateX: -90, // Fold out on X axis
-      rotateY: 45, // Fold out on Y axis to simulate unfolding from right top
-      scale: 0.8, // Shrink when exiting
-      transformOrigin: "top right", // Fold from the top right corner
+      rotateX: -90,
+      rotateY: 45,
+      scale: 0.8,
+      transformOrigin: '100% 0%',
     },
     transition: { duration: 1, ease: 'easeInOut' },
   };
-  
-  
+
   return (
     <Routes location={location}>
       <Route

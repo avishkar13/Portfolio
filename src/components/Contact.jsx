@@ -171,7 +171,7 @@ return (
             />
           </div>
 
-          <button type="submit" value="send" disabled={isSubmitting} className="text-white w-fit cursor-pointer bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm  sm:w-auto px-5 py-2.5 my-4 flex items-center justify-center mx-auto text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+          <button type="submit" value="send" disabled={isSubmitting} className="text-white w-fit cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm  sm:w-auto px-5 py-2.5 my-4 flex items-center justify-center mx-auto text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
         </form>
 
       </div>
